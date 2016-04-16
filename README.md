@@ -1,3 +1,36 @@
+
+
+这是一个基于NGINX的流媒体(Media Streaming Server）。它具有以下特性：
+视频/音频实时流式传输
+
+Video on demand FLV/MP4, 从本地文件系统或HTTP播放
+
+Stream relay support for distributed streaming: push & pull models
+
+Recording streams in multiple FLVs
+
+H264/AAC 支持
+
+利用ffmpeg在线转码
+
+HLS (HTTP Live Streaming) 支持
+
+HTTP callbacks (publish/play/record/update etc)
+
+Running external programs on certain events (exec)
+
+HTTP control module for recording audio/video and dropping clients
+
+Advanced buffering techniques to keep memory allocations at a minimum level for faster streaming and low memory footprint
+
+Proved to work with Wirecast,FMS,Wowza, JWPlayer,FlowPlayer,StrobeMediaPlayback, ffmpeg,avconv,rtmpdump,flvstreamer and many more
+
+Statistics in XML/XSL in machine- & human- readable form
+
+Linux/FreeBSD/MacOS
+
+
+
 # NGINX-based Media Streaming Server
 ## nginx-rtmp-module
 
